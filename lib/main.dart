@@ -5,6 +5,7 @@ import 'column.dart';
 import 'container.dart';
 import 'image.dart';
 import 'icon.dart';
+import 'scaffold.dart';
 
 void main() {
   runApp(const MyApp());
@@ -125,6 +126,7 @@ final Map<String, Widget> widgetExamples = {
   'Container': const ContainerExampleScreen(),
   'Image': const NetworkImageExample(),
   'Icon': const SimpleIconExample(),
+  'Scaffold': const ScaffoldExample(),
 };
 
 class WidgetListScreen extends StatelessWidget {

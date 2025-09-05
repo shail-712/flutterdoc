@@ -5,8 +5,7 @@ import 'column.dart';
 import 'container.dart';
 import 'image.dart';
 import 'icon.dart';
-import 'scaffold.dart';
-import 'material_app.dart';
+import 'scaffold_appbar_material-app.dart';
 
 void main() {
   runApp(const MyApp());
@@ -41,9 +40,7 @@ class CategoryMenu extends StatelessWidget {
         'ElevatedButton',
         'TextButton',
         'OutlinedButton',
-        'Scaffold',
-        'AppBar',
-        'MaterialApp',
+        'Scaffold + AppBar +  Material App',
         'Center',
         'Padding',
         'SizedBox',
@@ -127,8 +124,7 @@ final Map<String, Widget> widgetExamples = {
   'Container': const ContainerExampleScreen(),
   'Image': const NetworkImageExample(),
   'Icon': const SimpleIconExample(),
-  'Scaffold': const ScaffoldExample(),
-  'MaterialApp': const MaterialAppExample(),
+  'Scaffold + AppBar +  Material App': const ScaffoldAppbarMaterialapp(),
 };
 
 class WidgetListScreen extends StatelessWidget {

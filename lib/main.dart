@@ -6,6 +6,7 @@ import 'container.dart';
 import 'image.dart';
 import 'icon.dart';
 import 'scaffold.dart';
+import 'material_app.dart';
 
 void main() {
   runApp(const MyApp());
@@ -127,6 +128,7 @@ final Map<String, Widget> widgetExamples = {
   'Image': const NetworkImageExample(),
   'Icon': const SimpleIconExample(),
   'Scaffold': const ScaffoldExample(),
+  'MaterialApp': const MaterialAppExample(),
 };
 
 class WidgetListScreen extends StatelessWidget {
